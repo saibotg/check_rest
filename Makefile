@@ -17,6 +17,9 @@ build:
 test:
 	go test $(GOFLAGS) ./...
 
+tar:
+	tar -czvf dist/check_rest.tar.gz -C dist check_rest
+
 # "clean" Ziel zum Löschen der generierten Dateien
 clean:
 	rm -f $(APP_NAME)
