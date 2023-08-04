@@ -47,7 +47,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build-artifact
-          path: dist/check_rest.tar.gz
 
       - name: Release
         uses: softprops/action-gh-release@v1
