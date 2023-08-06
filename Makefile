@@ -11,7 +11,7 @@ all: build test
 
 # Build-Schritt
 build:
-	go build $(GOFLAGS) -o dist/$(APP_NAME) ./...
+	go build $(GOFLAGS) -o dist/$(APP_NAME)
 
 # Test-Schritt
 test:
